@@ -1,0 +1,158 @@
+@keyframes bola {
+    0% {
+        left: 0px;
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: -0px;
+        transition: 1s;
+        width: 10px;
+        height: 10px;
+    }
+
+    10% {
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: -100px;
+        transition: 1s;
+        width: 10px;
+        height: 10px;
+    }
+
+    20% {
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: 100px;
+        transition: 1s;
+        width: 20px;
+        height: 20px;
+    }
+
+    30% {
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: -100px;
+        transition: 1s;
+        width: 40px;
+        height: 40px;
+    }
+
+    40% {
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: 100px;
+        transition: 1s;
+        width: 50px;
+        height: 50px;
+    }
+
+    50% {
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: -100px;
+        transition: 1s;
+        width: 70px;
+        height: 70px;
+    }
+    60% {
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: 100px;
+        transition: 1s;
+        width: 80px;
+        height: 80px;
+    }
+    70% {
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: -100px;
+        transition: 1s;
+        width: 100px;
+        height: 100px;
+    }
+    80% {
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: 10000px;
+        transition: 1s;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+    }
+    90% {
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: -100px;
+        transition: 1s;
+        width: 10px;
+        height: 10px;
+    }
+    100% {
+        background-image: linear-gradient(red, rgb(70, 12, 12));
+        top: 0px;
+        transition: 1s;
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@keyframes vidro1 {
+    0% {
+        filter: opacity(0);
+        transition: 1;
+    }
+    10% {
+        filter: opacity(0);
+        transition: 1;
+    }
+
+    20% {
+        filter: opacity(0);
+        transition: 1;
+    }
+
+    30% {
+        filter: opacity(0);
+        transition: 1;
+    }
+
+    40% {
+        filter: opacity(0);
+        transition: 1;
+    }
+
+    50% {
+        filter: opacity(0);
+        transition: 1;
+    }
+    60% {
+        filter: opacity(0);
+        transition: 1;
+    }
+    70% {
+        filter: opacity(100);
+        transition: 1;
+    }
+    80% {
+        filter: opacity(0);
+        transition: 1;
+    }
+    90% {
+        filter: opacity(0);
+        transition: 1;
+    }
+    100% {
+        filter: opacity(0);
+        transition: 1;
+    }
+}
+
+.caminho {
+    position: absolute;
+    width: 100%;
+    padding-top: 200px;
+    padding-left: 45%;
+}
+
+.bola {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    transition-timing-function: linear;
+    animation-name: bola;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    border-radius: 50px;
+    background-image: linear-gradient(red, rgb(70, 12, 12));
+    animation-delay: 1s;
+}
